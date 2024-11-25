@@ -1,0 +1,49 @@
+{
+	"name": "cs5678_2024sp.h_balloon_selection.hinkle.gdh55",
+	"version": "0.1.1",
+	"displayName": "cs5678_2024sp.h_balloon_selection.hinkle.gdh55",
+	"description": "The Balloon Selection package is a package created for use within the XRC Framework. This interaction technique allows users to use hand tracking to create a balloon selection technique to interact with objects in a 3D environment. This package includes a sample scene, input action map, prefabs, and audio samples to showcase the Balloon Selection technique in a Unity scene.",
+	"unity": "2022.3",
+	"unityRelease": "7f1",
+	"documentationUrl": "https://cs5678-2024sp.github.io/h-balloon-selection-Kaizien/",
+	"changelogUrl": "https://cs5678-2024sp.github.io/h-balloon-selection-Kaizien/changelog/CHANGELOG.html",
+	"licensesUrl": "https://cs5678-2024sp.github.io/h-balloon-selection-Kaizien/license/LICENSE.html",
+	"dependencies": {
+		"edu.cornell.xrc.core": "0.1.3",
+		"com.unity.xr.interaction.toolkit": "2.4.3",
+		"com.unity.inputsystem": "1.6.3",
+		"com.unity.xr.hands": "1.4.0",
+		"com.unity.xr.arfoundation": "5.1.2",
+		"com.unity.xr.meta-openxr": "1.0.1",
+		"com.unity.xr.openxr": "1.8.2"		
+	},
+	"keywords": [
+		"XRC",
+		"XR Collaboratory"
+	],
+	"author": {
+		"name": "Grant Hinkle"
+	},
+	"samples": [
+		{
+			"displayName": "Balloon Selection Sample Scene",
+			"description": "The includes a sample showcasing the XRC Balloon Selection implementation in a Unity scene.",
+			"path": "Samples~/Scenes"
+		},
+		{
+			"displayName": "XRC Balloon Selection Input Action Map",
+			"description": "XRC Balloon Selection Input Action Map is a sample input action map that can be used to interact with the Balloon Selection package.",
+			"path": "Samples~/Input"
+		},
+		{
+			"displayName": "Balloon Selection Prefabs",
+			"description": "The Balloon Selection are a collection of prefabs that can be used to interact with the Balloon Selection technique.",
+			"path": "Samples~/Prefabs"
+		},
+		{
+			"displayName": "Balloon Selection Audio",
+			"description": "The Balloon Selection contains the audio sample used in the Balloon Selection package",
+			"path": "Samples~/Audio"
+		}
+	]
+}

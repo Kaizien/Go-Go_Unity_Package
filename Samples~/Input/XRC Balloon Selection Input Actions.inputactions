@@ -1,0 +1,45 @@
+{
+    "name": "XRC Balloon Selection Input Actions",
+    "maps": [
+        {
+            "name": "Balloon Selection",
+            "id": "1b38fc0c-ecd7-42c2-b356-080ce5397633",
+            "actions": [
+                {
+                    "name": "Normalized Radius",
+                    "type": "Value",
+                    "id": "903bae7d-bfb2-4ce0-8778-b1b7851fa811",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "60c9ef10-45d1-4268-a1ef-e40c80c80c26",
+                    "path": "<OculusTouchController>{RightHand}/trigger",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Normalized Radius",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "2e5638f6-d005-4fd9-b79f-7c1da7eb61c7",
+                    "path": "<MetaAimHand>{RightHand}/pinchStrengthIndex",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Normalized Radius",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
